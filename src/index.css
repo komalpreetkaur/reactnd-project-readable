@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  padding: 5px 10px;
+}
+.heading {
+  padding: 5px;
+  text-transform: capitalize;
+  color: chocolate;
+  text-align: center;
+}
+.title {
+  font-weight: 400;
+  padding-bottom:10px;
+  border-bottom: 1px solid gray;
+  color: cadetblue
+}
+.list {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex:1
+}
+a {
+  text-transform: capitalize;
+  color: black;
+}
+a:hover {
+    color: darkblue;
+}
+.link-button{
+  margin:10px;
+  float:right;
+}
+.link-button a {
+    background-color: white;
+    color: black;
+    border: 2px solid cadetblue;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.link-button a:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 10px;
+  background: whitesmoke;
+}
+.card p {
+  color: chocolate;
+  padding-left:5px
+}
+
+.footer {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.footer span {
+  color:grey;
+  text-transform: capitalize;
+  font-size: smaller;
+  flex:1
+}
+
+.vote {
+  flex:1;
+}
+
+.vote button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn {
+  margin:0 5px
+}
+.label{
+  font-size: smaller
+}
+.desc {
+  padding-left:5px
+}
+
+.action-btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid cadetblue ;
+    border-radius: 5px;
+    font-size: smaller;
+    padding:5px;
+}
+
+.action-btn:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.dir {
+  float:right;
+}
+
+.add {
+  float:right;
+}
+.add button {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: cadetblue;
+}
+
+input[type="submit"]:disabled {
+  background-color: grey;
+  cursor: text;
+}
+
+.modal-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10% 5%;
+}
+
+.modal {
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  right: 400px;
+  bottom: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.24), 0 3px 12px 0 rgba(0,0,0,.12);
+  width: 530px;
+  height:530px
+}
+
+.form-box {
+    padding: 50px;
+}
+
+.container {
+  padding:20px;
+}
